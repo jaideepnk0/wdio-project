@@ -1,0 +1,118 @@
+{
+  "uid" : "6b6f1036962375eb",
+  "name" : "When User is on the home page",
+  "fullName" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage.When User is on the home page",
+  "historyId" : "514a46859c28dc90a8bb0d16bfcbcfcc",
+  "time" : {
+    "start" : 1608024383655,
+    "stop" : 1608024388714,
+    "duration" : 5059
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"\n                    at World.<anonymous> (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\features\\step-definitions\\home.page.steps.js:23:24)\n                    at World.executeSync (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"\n                    at World.<anonymous> (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\features\\step-definitions\\home.page.steps.js:23:24)\n                    at World.executeSync (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1608024388659,
+        "stop" : 1608024388674,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f2fd10776a961ec",
+        "name" : "Response",
+        "source" : "8f2fd10776a961ec.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1608024388674,
+        "stop" : 1608024388701,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "510255b64475f209",
+        "name" : "Response",
+        "source" : "510255b64475f209.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User is on the home page"
+  }, {
+    "name" : "package",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b6f1036962375eb.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

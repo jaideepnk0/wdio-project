@@ -1,0 +1,156 @@
+{
+  "6d8b7bb4ac6c8d453ce507b83e5797b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57f3f04b44b5585d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1608024388715,
+        "stop" : 1608024388715,
+        "duration" : 0
+      }
+    } ]
+  },
+  "514a46859c28dc90a8bb0d16bfcbcfcc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b6f1036962375eb",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+      "time" : {
+        "start" : 1608024383655,
+        "stop" : 1608024388714,
+        "duration" : 5059
+      }
+    } ]
+  },
+  "260a0dbc94c27ec953e347a89d187682" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c22b26c4d26090d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024388716,
+        "stop" : 1608024388717,
+        "duration" : 1
+      }
+    } ]
+  },
+  "89ae3d38866ca31748b1ce7f9ca0fa8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74c8924eeab6690a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024372622,
+        "stop" : 1608024383257,
+        "duration" : 10635
+      }
+    } ]
+  },
+  "60a21402d2c098af0e58df9ff5019bd1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e688944c3c425ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024390275,
+        "stop" : 1608024390276,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f0355d7ca2f3d0dc9865763c0fa7db07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59b4423f09360980",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1608024390274,
+        "stop" : 1608024390274,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f1cd76033593ae495d24911e330df592" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8d4d4a95394c232",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+      "time" : {
+        "start" : 1608024390256,
+        "stop" : 1608024390273,
+        "duration" : 17
+      }
+    } ]
+  },
+  "ec49e4863e5d575ccba2f08515481e83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81603a243a2f0d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024383259,
+        "stop" : 1608024383655,
+        "duration" : 396
+      }
+    } ]
+  }
+}

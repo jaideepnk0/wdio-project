@@ -1,0 +1,139 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Hook",
+      "uid" : "9e1a5088150d199f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024388749,
+        "stop" : 1608024390255,
+        "duration" : 1506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "ad027e082fb3f32d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024372619,
+        "stop" : 1608024372622,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "7e688944c3c425ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024390275,
+        "stop" : 1608024390276,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "c22b26c4d26090d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024388716,
+        "stop" : 1608024388717,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Given User login to the website",
+      "uid" : "81603a243a2f0d6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024383259,
+        "stop" : 1608024383655,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Then User see a pie chart",
+      "uid" : "57f3f04b44b5585d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1608024388715,
+        "stop" : 1608024388715,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Hook User login to the website",
+      "uid" : "74c8924eeab6690a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608024372622,
+        "stop" : 1608024383257,
+        "duration" : 10635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "When User is on the home page",
+      "uid" : "6b6f1036962375eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1608024383655,
+        "stop" : 1608024388714,
+        "duration" : 5059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Then I see Leave chart",
+      "uid" : "59b4423f09360980",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1608024390274,
+        "stop" : 1608024390274,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Given I am on the home page",
+      "uid" : "f8d4d4a95394c232",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1608024390256,
+        "stop" : 1608024390273,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

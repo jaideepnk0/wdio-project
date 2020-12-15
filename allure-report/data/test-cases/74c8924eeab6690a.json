@@ -1,0 +1,116 @@
+{
+  "uid" : "74c8924eeab6690a",
+  "name" : "Hook User login to the website",
+  "fullName" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage.Hook User login to the website",
+  "historyId" : "89ae3d38866ca31748b1ce7f9ca0fa8a",
+  "time" : {
+    "start" : 1608024372622,
+    "stop" : 1608024383257,
+    "duration" : 10635
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1608024372628,
+        "stop" : 1608024383074,
+        "duration" : 10446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4db9bfb342549a2",
+        "name" : "Request",
+        "source" : "d4db9bfb342549a2.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1608024383075,
+        "stop" : 1608024383257,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "445c25827e7d9844",
+        "name" : "Request",
+        "source" : "445c25827e7d9844.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "89feb88952e954fc",
+        "name" : "Response",
+        "source" : "89feb88952e954fc.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook User login to the website"
+  }, {
+    "name" : "package",
+    "value" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74c8924eeab6690a.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

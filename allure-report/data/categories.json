@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+      "children" : [ {
+        "name" : "When User is on the home page",
+        "uid" : "6b6f1036962375eb",
+        "parentUid" : "3948c033b43be237d321b68ec94e6b38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608024383655,
+          "stop" : 1608024388714,
+          "duration" : 5059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      }, {
+        "name" : "Given I am on the home page",
+        "uid" : "f8d4d4a95394c232",
+        "parentUid" : "3948c033b43be237d321b68ec94e6b38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608024390256,
+          "stop" : 1608024390273,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      } ],
+      "uid" : "3948c033b43be237d321b68ec94e6b38"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

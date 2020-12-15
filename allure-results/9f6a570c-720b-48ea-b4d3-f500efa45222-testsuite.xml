@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608024388749' stop='1608024390276'>
+    <name>verify home page scenarios: As a user, I want to verify Leave Chart on HomePage</name>
+    <title>verify home page scenarios: As a user, I want to verify Leave Chart on HomePage</title>
+    <test-cases>
+        <test-case start='1608024388749' status='passed' stop='1608024390255'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.88'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.88'/>
+            </parameters>
+            <steps>
+                <step start='1608024388750' status='passed' stop='1608024390114'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5420b382-5495-47d7-8fe7-4ffee21ac2dd-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1608024390114' status='passed' stop='1608024390255'>
+                    <name>POST /session/:sessionId/window/rect</name>
+                    <title>POST /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Request' source='9402a346-1b38-4d5d-8e13-4abfc524e411-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='a858a72d-1ec9-44cc-af5f-3a2647d72b08-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1608024390256' status='failed' stop='1608024390273'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.88'/>
+            </parameters>
+            <steps>
+                <step start='1608024390257' status='passed' stop='1608024390268'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='21bbc304-34c3-4dfc-8f58-2f0865281848-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "/dashboard"
+                Received string:    "https://orangehrm-demo-6x.orangehrmlive.com/"</message>
+                <stack-trace>Error: expect(received).toContain(expected) // indexOf
+                
+                Expected substring: "/dashboard"
+                Received string:    "https://orangehrm-demo-6x.orangehrmlive.com/"
+                    at World.&lt;anonymous> (C:\Users\JaiNaik\WDIO_Workshop\webdriverio-test\features\step-definitions\home.page.steps.js:32:30)
+                    at World.executeSync (C:\Users\JaiNaik\WDIO_Workshop\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\JaiNaik\WDIO_Workshop\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1608024390274' status='pending' stop='1608024390274'>
+            <name>Then I see Leave chart</name>
+            <title>Then I see Leave chart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1608024390275' status='passed' stop='1608024390276'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

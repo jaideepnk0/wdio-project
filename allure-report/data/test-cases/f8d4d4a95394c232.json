@@ -1,0 +1,97 @@
+{
+  "uid" : "f8d4d4a95394c232",
+  "name" : "Given I am on the home page",
+  "fullName" : "verify home page scenarios: As a user, I want to verify Leave Chart on HomePage.Given I am on the home page",
+  "historyId" : "f1cd76033593ae495d24911e330df592",
+  "time" : {
+    "start" : 1608024390256,
+    "stop" : 1608024390273,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"\n                    at World.<anonymous> (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\features\\step-definitions\\home.page.steps.js:32:30)\n                    at World.executeSync (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"\n                    at World.<anonymous> (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\features\\step-definitions\\home.page.steps.js:32:30)\n                    at World.executeSync (C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\JaiNaik\\WDIO_Workshop\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1608024390257,
+        "stop" : 1608024390268,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7abe72590cdec12c",
+        "name" : "Response",
+        "source" : "7abe72590cdec12c.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify home page scenarios: As a user, I want to verify Leave Chart on HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "verify home page scenarios: As a user, I want to verify Leave Chart on HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "verify home page scenarios: As a user, I want to verify Leave Chart on HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f8d4d4a95394c232.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

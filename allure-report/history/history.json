@@ -9,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57f3f04b44b5585d",
+      "uid" : "fed36084a304d848",
       "status" : "skipped",
       "time" : {
-        "start" : 1608024388715,
-        "stop" : 1608024388715,
-        "duration" : 0
-      }
-    } ]
-  },
-  "514a46859c28dc90a8bb0d16bfcbcfcc" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6b6f1036962375eb",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
-      "time" : {
-        "start" : 1608024383655,
-        "stop" : 1608024388714,
-        "duration" : 5059
+        "start" : 1608053594461,
+        "stop" : 1608053594463,
+        "duration" : 2
       }
     } ]
   },
@@ -48,11 +28,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c22b26c4d26090d6",
+      "uid" : "6ba817207db3469c",
       "status" : "passed",
       "time" : {
-        "start" : 1608024388716,
-        "stop" : 1608024388717,
+        "start" : 1608053594465,
+        "stop" : 1608053594467,
+        "duration" : 2
+      }
+    } ]
+  },
+  "514a46859c28dc90a8bb0d16bfcbcfcc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "310a1a391370824b",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+      "time" : {
+        "start" : 1608053589362,
+        "stop" : 1608053594460,
+        "duration" : 5098
+      }
+    } ]
+  },
+  "f0355d7ca2f3d0dc9865763c0fa7db07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70a91d46c0923b46",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1608053595740,
+        "stop" : 1608053595741,
         "duration" : 1
       }
     } ]
@@ -67,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74c8924eeab6690a",
+      "uid" : "4499473ad5b23001",
       "status" : "passed",
       "time" : {
-        "start" : 1608024372622,
-        "stop" : 1608024383257,
-        "duration" : 10635
+        "start" : 1608053527902,
+        "stop" : 1608053534020,
+        "duration" : 6118
       }
     } ]
   },
@@ -86,51 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e688944c3c425ad",
+      "uid" : "6024db95755817d1",
       "status" : "passed",
       "time" : {
-        "start" : 1608024390275,
-        "stop" : 1608024390276,
+        "start" : 1608053595742,
+        "stop" : 1608053595743,
         "duration" : 1
-      }
-    } ]
-  },
-  "f0355d7ca2f3d0dc9865763c0fa7db07" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "59b4423f09360980",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1608024390274,
-        "stop" : 1608024390274,
-        "duration" : 0
-      }
-    } ]
-  },
-  "f1cd76033593ae495d24911e330df592" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f8d4d4a95394c232",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
-      "time" : {
-        "start" : 1608024390256,
-        "stop" : 1608024390273,
-        "duration" : 17
       }
     } ]
   },
@@ -144,12 +124,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81603a243a2f0d6a",
+      "uid" : "5e587de7f790321d",
       "status" : "passed",
       "time" : {
-        "start" : 1608024383259,
-        "stop" : 1608024383655,
-        "duration" : 396
+        "start" : 1608053534022,
+        "stop" : 1608053589362,
+        "duration" : 55340
+      }
+    } ]
+  },
+  "f1cd76033593ae495d24911e330df592" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdf127f8c4001ce8",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
+      "time" : {
+        "start" : 1608053595719,
+        "stop" : 1608053595740,
+        "duration" : 21
       }
     } ]
   }

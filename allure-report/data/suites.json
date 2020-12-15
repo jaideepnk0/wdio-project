@@ -5,65 +5,65 @@
     "name" : "verify home page scenarios: As a user, I want to verify Employee Distribution Chart on HomePage",
     "children" : [ {
       "name" : "Hook User login to the website",
-      "uid" : "74c8924eeab6690a",
+      "uid" : "4499473ad5b23001",
       "parentUid" : "d117a75a514579d0bc8f21e9fce8aa86",
       "status" : "passed",
       "time" : {
-        "start" : 1608024372622,
-        "stop" : 1608024383257,
-        "duration" : 10635
+        "start" : 1608053527902,
+        "stop" : 1608053534020,
+        "duration" : 6118
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Given User login to the website",
-      "uid" : "81603a243a2f0d6a",
+      "uid" : "5e587de7f790321d",
       "parentUid" : "d117a75a514579d0bc8f21e9fce8aa86",
       "status" : "passed",
       "time" : {
-        "start" : 1608024383259,
-        "stop" : 1608024383655,
-        "duration" : 396
+        "start" : 1608053534022,
+        "stop" : 1608053589362,
+        "duration" : 55340
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "When User is on the home page",
-      "uid" : "6b6f1036962375eb",
+      "uid" : "310a1a391370824b",
       "parentUid" : "d117a75a514579d0bc8f21e9fce8aa86",
       "status" : "failed",
       "time" : {
-        "start" : 1608024383655,
-        "stop" : 1608024388714,
-        "duration" : 5059
+        "start" : 1608053589362,
+        "stop" : 1608053594460,
+        "duration" : 5098
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Then User see a pie chart",
-      "uid" : "57f3f04b44b5585d",
+      "uid" : "fed36084a304d848",
       "parentUid" : "d117a75a514579d0bc8f21e9fce8aa86",
       "status" : "skipped",
       "time" : {
-        "start" : 1608024388715,
-        "stop" : 1608024388715,
-        "duration" : 0
+        "start" : 1608053594461,
+        "stop" : 1608053594463,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Hook",
-      "uid" : "c22b26c4d26090d6",
+      "uid" : "6ba817207db3469c",
       "parentUid" : "d117a75a514579d0bc8f21e9fce8aa86",
       "status" : "passed",
       "time" : {
-        "start" : 1608024388716,
-        "stop" : 1608024388717,
-        "duration" : 1
+        "start" : 1608053594465,
+        "stop" : 1608053594467,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
@@ -74,38 +74,38 @@
     "name" : "verify home page scenarios: As a user, I want to verify Leave Chart on HomePage",
     "children" : [ {
       "name" : "Given I am on the home page",
-      "uid" : "f8d4d4a95394c232",
+      "uid" : "fdf127f8c4001ce8",
       "parentUid" : "a9785a57ffac5e2c184d1f88a6550549",
       "status" : "failed",
       "time" : {
-        "start" : 1608024390256,
-        "stop" : 1608024390273,
-        "duration" : 17
+        "start" : 1608053595719,
+        "stop" : 1608053595740,
+        "duration" : 21
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Then I see Leave chart",
-      "uid" : "59b4423f09360980",
+      "uid" : "70a91d46c0923b46",
       "parentUid" : "a9785a57ffac5e2c184d1f88a6550549",
       "status" : "skipped",
       "time" : {
-        "start" : 1608024390274,
-        "stop" : 1608024390274,
-        "duration" : 0
+        "start" : 1608053595740,
+        "stop" : 1608053595741,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Hook",
-      "uid" : "7e688944c3c425ad",
+      "uid" : "6024db95755817d1",
       "parentUid" : "a9785a57ffac5e2c184d1f88a6550549",
       "status" : "passed",
       "time" : {
-        "start" : 1608024390275,
-        "stop" : 1608024390276,
+        "start" : 1608053595742,
+        "stop" : 1608053595743,
         "duration" : 1
       },
       "flaky" : false,

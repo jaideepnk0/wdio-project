@@ -7,26 +7,26 @@
       "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"/dashboard\"\n                Received string:    \"https://orangehrm-demo-6x.orangehrmlive.com/\"",
       "children" : [ {
         "name" : "When User is on the home page",
-        "uid" : "6b6f1036962375eb",
+        "uid" : "310a1a391370824b",
         "parentUid" : "3948c033b43be237d321b68ec94e6b38",
         "status" : "failed",
         "time" : {
-          "start" : 1608024383655,
-          "stop" : 1608024388714,
-          "duration" : 5059
+          "start" : 1608053589362,
+          "stop" : 1608053594460,
+          "duration" : 5098
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-87.0.4280.88" ]
       }, {
         "name" : "Given I am on the home page",
-        "uid" : "f8d4d4a95394c232",
+        "uid" : "fdf127f8c4001ce8",
         "parentUid" : "3948c033b43be237d321b68ec94e6b38",
         "status" : "failed",
         "time" : {
-          "start" : 1608024390256,
-          "stop" : 1608024390273,
-          "duration" : 17
+          "start" : 1608053595719,
+          "stop" : 1608053595740,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,

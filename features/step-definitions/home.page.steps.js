@@ -1,18 +1,17 @@
 const { Given, When, Then } = require("cucumber");
 const { Before, After, BeforeAll, AfterAll } = require("cucumber");
-//const { addFeature } = require('@wdio/allure-reporter').default
 const HomePage = require('../pageobjects/home.page');
 
 Before(() => {
     browser.url('/');
-    //browser.maximizeWindow();
-    browser.setWindowSize(300, 400);
+    browser.maximizeWindow();
+    //browser.setWindowSize(300, 400);
 })
 
 Given('User login to the website', () => {
-    //HomePage.login();
-    $("button[type='button']").scrollIntoView();
-    browser.saveScreenshot('./features/myTest.png');
+    HomePage.login();
+    //$("button[type='button']").scrollIntoView();
+    //browser.saveScreenshot('./features/myTest.png');
 
 })
 
